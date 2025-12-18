@@ -1,0 +1,1 @@
+Min cut cost: 2
