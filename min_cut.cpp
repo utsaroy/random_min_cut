@@ -23,6 +23,8 @@ int random_min_cut(int n,vector<pair<int,int>> edgeLlist){
 }
 
 int main(){
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
     int n, e; cin>>n>>e;
     vector<pair<int,int>> edgeList(e);
     for(auto &i: edgeList) cin>>i.first>>i.second;
